@@ -1,0 +1,1 @@
+from .laugh import haha
