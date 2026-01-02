@@ -4,4 +4,4 @@ def read_csv_as_dicts(file_path):
     with open(file_path,'r') as csvfile:
         reader_csv=csv.DictReader(csvfile)
         return list(reader_csv)
-print(read_csv_as_dicts("./Practice/test.csv"))
+print(read_csv_as_dicts("test.csv"))
